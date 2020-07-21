@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="game_title.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="game_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="game_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 15.75pt, style=Bold</value>
+  </data>
+  <data name="game_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 40</value>
+  </data>
+  <data name="game_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 37</value>
+  </data>
+  <data name="game_title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="game_title.Text" xml:space="preserve">
+    <value>ROCK ADVENTURE</value>
+  </data>
+  <data name="&gt;&gt;game_title.Name" xml:space="preserve">
+    <value>game_title</value>
+  </data>
+  <data name="&gt;&gt;game_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;game_title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;game_title.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="storyboard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="storyboard.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="stage_3_action.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="stage_3_action.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="stage_3_action.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stage_3_action.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 430</value>
+  </data>
+  <data name="stage_3_action.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 60</value>
+  </data>
+  <data name="stage_3_action.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="stage_3_action.Text" xml:space="preserve">
+    <value>Perform Action</value>
+  </data>
+  <data name="stage_3_action.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;stage_3_action.Name" xml:space="preserve">
+    <value>stage_3_action</value>
+  </data>
+  <data name="&gt;&gt;stage_3_action.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stage_3_action.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;stage_3_action.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="stage_2_action.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="stage_2_action.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="stage_2_action.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stage_2_action.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 430</value>
+  </data>
+  <data name="stage_2_action.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 60</value>
+  </data>
+  <data name="stage_2_action.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="stage_2_action.Text" xml:space="preserve">
+    <value>Perform Action</value>
+  </data>
+  <data name="stage_2_action.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;stage_2_action.Name" xml:space="preserve">
+    <value>stage_2_action</value>
+  </data>
+  <data name="&gt;&gt;stage_2_action.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stage_2_action.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;stage_2_action.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stage_1_action.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="stage_1_action.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="stage_1_action.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stage_1_action.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 430</value>
+  </data>
+  <data name="stage_1_action.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 60</value>
+  </data>
+  <data name="stage_1_action.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="stage_1_action.Text" xml:space="preserve">
+    <value>Perform Action</value>
+  </data>
+  <data name="stage_1_action.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;stage_1_action.Name" xml:space="preserve">
+    <value>stage_1_action</value>
+  </data>
+  <data name="&gt;&gt;stage_1_action.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stage_1_action.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;stage_1_action.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="inventory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="inventory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="inventory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="inventory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="inventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 537</value>
+  </data>
+  <data name="inventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="inventory.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>660, 40</value>
+  </data>
+  <data name="inventory.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>660, 40</value>
+  </data>
+  <data name="inventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 40</value>
+  </data>
+  <data name="inventory.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="inventory.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;inventory.Name" xml:space="preserve">
+    <value>inventory</value>
+  </data>
+  <data name="&gt;&gt;inventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inventory.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;inventory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="inventory_label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="inventory_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="inventory_label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="inventory_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="inventory_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 537</value>
+  </data>
+  <data name="inventory_label.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="inventory_label.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 40</value>
+  </data>
+  <data name="inventory_label.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 40</value>
+  </data>
+  <data name="inventory_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 40</value>
+  </data>
+  <data name="inventory_label.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="inventory_label.Text" xml:space="preserve">
+    <value>Inventory: </value>
+  </data>
+  <data name="&gt;&gt;inventory_label.Name" xml:space="preserve">
+    <value>inventory_label</value>
+  </data>
+  <data name="&gt;&gt;inventory_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inventory_label.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;inventory_label.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="choice_2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="choice_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="choice_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="choice_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="choice_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 350</value>
+  </data>
+  <data name="choice_2.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="choice_2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;choice_2.Name" xml:space="preserve">
+    <value>choice_2</value>
+  </data>
+  <data name="&gt;&gt;choice_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;choice_2.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;choice_2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="choice_1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="choice_1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="choice_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="choice_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 290</value>
+  </data>
+  <data name="choice_1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 50</value>
+  </data>
+  <data name="choice_1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="choice_1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;choice_1.Name" xml:space="preserve">
+    <value>choice_1</value>
+  </data>
+  <data name="&gt;&gt;choice_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;choice_1.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;choice_1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="start_game.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="start_game.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="start_game.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 430</value>
+  </data>
+  <data name="start_game.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 60</value>
+  </data>
+  <data name="start_game.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="start_game.Text" xml:space="preserve">
+    <value>Start Game</value>
+  </data>
+  <data name="&gt;&gt;start_game.Name" xml:space="preserve">
+    <value>start_game</value>
+  </data>
+  <data name="&gt;&gt;start_game.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;start_game.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;start_game.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="story.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="story.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="story.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="story.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="story.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="story.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 200</value>
+  </data>
+  <data name="story.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 200</value>
+  </data>
+  <data name="story.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 200</value>
+  </data>
+  <data name="story.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="story.Text" xml:space="preserve">
+    <value>Welcome to the Rock Adventure.
+
+Your goal is to become the best rock in the world, maintain the balance and the safety in the Elven Forest.
+
+Press Start Game to start the game.</value>
+  </data>
+  <data name="&gt;&gt;story.Name" xml:space="preserve">
+    <value>story</value>
+  </data>
+  <data name="&gt;&gt;story.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;story.Parent" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;story.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="storyboard.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 14.25pt, style=Bold</value>
+  </data>
+  <data name="storyboard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 100</value>
+  </data>
+  <data name="storyboard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 600</value>
+  </data>
+  <data name="storyboard.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;storyboard.Name" xml:space="preserve">
+    <value>storyboard</value>
+  </data>
+  <data name="&gt;&gt;storyboard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;storyboard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;storyboard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1184, 761</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe Print, 12pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Rock Adventure</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

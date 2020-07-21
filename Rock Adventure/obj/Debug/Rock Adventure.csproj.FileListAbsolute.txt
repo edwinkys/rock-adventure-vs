@@ -1,0 +1,13 @@
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\bin\Debug\Rock Adventure.exe.config
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\bin\Debug\Rock Adventure.exe
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\bin\Debug\Rock Adventure.pdb
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\bin\Debug\en-US\Rock Adventure.resources.dll
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock Adventure.csprojAssemblyReference.cache
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock_Adventure.main.resources
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock_Adventure.Properties.Resources.resources
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock_Adventure.main.en-US.resources
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock Adventure.csproj.GenerateResource.cache
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock Adventure.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\en-US\Rock Adventure.resources.dll
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock Adventure.exe
+C:\Users\Edwin Kys\source\repos\Rock Adventure\Rock Adventure\obj\Debug\Rock Adventure.pdb
